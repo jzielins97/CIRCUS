@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="21008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -41,7 +41,7 @@
 					<Item Name="Extract List from both INI.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/Support VIs/Extract List from both INI.vi"/>
 					<Item Name="Extract list from Project INI file entry.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/Guardian/Guardian/Extract list from Project INI file entry.vi"/>
 					<Item Name="TALOS Config Param.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/Support VIs/TALOS Config Param.vi"/>
-					<Item Name="TALOS.ini" Type="Document" URL="../../../../LabVIEW/builds/TALOS/TALOS.ini"/>
+					<Item Name="TALOS.ini" Type="Document" URL="../../../../../LabVIEW/builds/TALOS/TALOS.ini"/>
 				</Item>
 				<Item Name="Error and System Log" Type="Folder">
 					<Item Name="Error Log internals.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/Support VIs/Error Log internals.vi"/>
@@ -53,7 +53,7 @@
 					<Item Name="Error Memory.lvlib" Type="Library" URL="../../TALOS/TALOS_PPL.lvlibp/FGV/Error Memory/Error Memory.lvlib"/>
 					<Item Name="Custom General Error Handler.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/Support VIs/Custom General Error Handler.vi"/>
 					<Item Name="Substitute Error.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/Support VIs/Substitute Error.vi"/>
-					<Item Name="TALOS Errors.csv" Type="Document" URL="../../../../LabVIEW/builds/TALOS/TALOS Errors.csv"/>
+					<Item Name="TALOS Errors.csv" Type="Document" URL="../../../../../LabVIEW/builds/TALOS/TALOS Errors.csv"/>
 				</Item>
 				<Item Name="Misc" Type="Folder">
 					<Item Name="Indicator" Type="Folder">
@@ -130,6 +130,7 @@
 			<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/AdvancedString/Delimited String to 1D String Array.vi"/>
 			<Item Name="Space Constant.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 			<Item Name="Casting Utility For Actors.vim" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/ActorFramework/Actor/Casting Utility For Actors.vim"/>
+			<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/High Resolution Relative Seconds.vi"/>
 			<Item Name="Create Directory Recursive.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 			<Item Name="Write Spreadsheet String.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Write Spreadsheet String.vi"/>
 			<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
@@ -138,14 +139,16 @@
 			<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 			<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
 			<Item Name="Get File Extension.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Get File Extension.vi"/>
-			<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/High Resolution Relative Seconds.vi"/>
 			<Item Name="Create NI GUID.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/string/Create NI GUID.vi"/>
+			<Item Name="Less.vim" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Comparison/Less.vim"/>
 			<Item Name="Is Path and Not Empty.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Is Path and Not Empty.vi"/>
 			<Item Name="Is Class Not Interface Without Loading.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Is Class Not Interface Without Loading.vi"/>
 			<Item Name="Get LV Class Path.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Path.vi"/>
 			<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/AdvancedString/1D String Array to Delimited String.vi"/>
 			<Item Name="DialogType.ctl" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
 			<Item Name="usereventprio.ctl" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/event_ctls.llb/usereventprio.ctl"/>
+			<Item Name="Two-Way Comparison Versus Array Element.vim" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Array/Helpers/Two-Way Comparison Versus Array Element.vim"/>
+			<Item Name="Search Sorted 1D Array.vim" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Array/Search Sorted 1D Array.vim"/>
 			<Item Name="System Exec.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Platform/system.llb/System Exec.vi"/>
 			<Item Name="Stall Data Flow.vim" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/Stall Data Flow.vim"/>
 			<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="../../TALOS/TALOS_PPL.lvlibp/1abvi3w/vi.lib/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
@@ -239,7 +242,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Actor Framework.lvlibp" Type="LVLibp" URL="../../TALOS/Actor Framework.lvlibp">
-				<Item Name="Time-Delayed Send Messages" Type="Folder">
+				<Item Name="Time-Delayed Send Message" Type="Folder">
 					<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="../../TALOS/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
 					<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="../../TALOS/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
 					<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="../../TALOS/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
@@ -251,6 +254,7 @@
 					<Item Name="Launch Nested Actor Msg.lvclass" Type="LVClass" URL="../../TALOS/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Launch Nested Actor Msg/Launch Nested Actor Msg.lvclass"/>
 				</Item>
 				<Item Name="Actor.lvclass" Type="LVClass" URL="../../TALOS/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Actor/Actor.lvclass"/>
+				<Item Name="Message Priority Queue.lvclass" Type="LVClass" URL="../../TALOS/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Priority Queue/Message Priority Queue.lvclass"/>
 				<Item Name="Message Enqueuer.lvclass" Type="LVClass" URL="../../TALOS/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Enqueuer/Message Enqueuer.lvclass"/>
 				<Item Name="Message Dequeuer.lvclass" Type="LVClass" URL="../../TALOS/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Dequeuer/Message Dequeuer.lvclass"/>
 				<Item Name="Message Queue.lvclass" Type="LVClass" URL="../../TALOS/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Queue/Message Queue.lvclass"/>
@@ -260,7 +264,6 @@
 				<Item Name="Report Error Msg.lvclass" Type="LVClass" URL="../../TALOS/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Report Error Msg/Report Error Msg.lvclass"/>
 				<Item Name="Self-Addressed Msg.lvclass" Type="LVClass" URL="../../TALOS/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Self-Addressed Msg/Self-Addressed Msg.lvclass"/>
 				<Item Name="AF Debug.lvlib" Type="Library" URL="../../TALOS/Actor Framework.lvlibp/1abvi3w/resource/AFDebug/AF Debug.lvlib"/>
-				<Item Name="Message Priority Queue.lvclass" Type="LVClass" URL="../../TALOS/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Priority Queue/Message Priority Queue.lvclass"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="../../TALOS/Actor Framework.lvlibp/1abvi3w/vi.lib/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../TALOS/Actor Framework.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
